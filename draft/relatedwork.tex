@@ -1,0 +1,66 @@
+\section{Related Work} 
+\label{sec:related_work}
+
+Nagasaka \textit{et al.} conjectured energy consumption of GPUs based on
+the hardware performance counter~\cite{Nagasaka2010}.
+This performance counter, however, is not adequate in that power
+consumption rises even in an idle state when voltage and frequency are
+scaled, though the performance counter does not change in an idle
+state.
+Hence, this approach would require an additional model to precisely
+analyze the power consumption of the GPU.
+
+Hong \textit{et al.} studied energy savings of GPUs, assuming power
+gating available to limit the number of active
+cores~\cite{Hong2009,Hong2010}.
+In particular, they analyze PTX code to model the power and performance
+of GPUs based on the number of instructions and memory accesses.
+Unfortunately, none of the current GPU architectures yet supports power
+gating, which limited their contribution to simulation studies.
+Therefore, it is questionable if the presented power and performance
+model is applicable to the real-world, and GPU power gating is also not
+a realistic assumption at the moment.
+Nonetheless, we consider that an offline PTX analysis for power and
+performance prediction is a useful approach to the design of DVFS
+algorithms.
+What lacks in this approach, however, is a runtime analysis for input
+data.
+In this paper, we have analyzed the power and performance
+characteristics depending on the size of input data. 
+
+Lee \textit{et al.} presented a method to apply DVFS algorithms to the
+GPU.
+They particularly aimed at maximizing performance under the given power
+constraint~\cite{Lee2011}.
+A strong limitation of their work, however, is that the evaluation of
+power consumption is based on a conceptual model but not on real-world
+hardware.
+They also failed to discuss how to determine the voltage and frequency.
+In this paper, we have rather explored how to minimize the energy
+consumption of GPU-accelerated systems using the cutting-edge real-world
+hardware.
+
+Jiao \textit{et al.} evaluated the power and performance of an old
+NVIDIA GTX~280 GPU~\cite{Jiao2010}.
+They examined compute-intensive and memory-intensive programs.
+According to their analysis, energy consumption could often be reduced
+by lowering the core clock when workload is memory-intensive.
+This is exactly the same as what we have identified for an NVIDIA's
+GTX~480 GPU.
+Therefore, we conjecture that this observation and knowledge could be
+applied to future GPU architectures as well.
+In addition, we have disclosed that energy consumption could also be
+reduced by scaling the memory clock.
+This opens up a new insight into DVFS algorithms for GPU-accelerated
+systems.
+
+Ying \textit{et al.} analyzed the power and performance of an AMD
+HD~5870 GPU using a random forest method with the profile
+counter~\cite{ying2011}.
+They revealed that activating a fewer number of ALUs reduces power
+consumption.
+However, this approach incurs an increase in execution time, and does
+not successfully reduce energy consumption.
+This is attributed to the fact that they use only software management.
+Meanwhile, we have demonstrated that energy can be reduced by scaling
+the voltate and frequency of the GPU.

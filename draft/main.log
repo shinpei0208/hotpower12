@@ -1,0 +1,224 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.15)  20 JUL 2012 13:58
+entering extended mode
+ %&-line parsing enabled.
+**main
+(./main.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./usenix-kato.sty
+(/usr/share/texmf/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+))
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf/tex/latex/ltxmisc/endnotes.sty
+\c@endnote=\count88
+\endnotesep=\dimen107
+\@enotes=\write3
+) (./multirow.sty
+\bigstrutjot=\dimen108
+)
+(./subfigure.sty
+\c@subfigure=\count89
+) (/usr/share/texmf/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2006/08/26 v1.3 Conversion with epstopdf on the fly (HO)
+
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+) (/usr/share/texmf/tex/latex/comment/comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment')
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+) (./bibspacing.sty
+\bibindent=\dimen109
+\bibspacing=\dimen110
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 34.
+
+(/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 53.
+ (./abstract.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+(./introduction.tex
+<figures/perf_per_watt.pdf, id=1, 559.08875pt x 199.74625pt>
+File: figures/perf_per_watt.pdf Graphic file (type pdf)
+
+<use figures/perf_per_watt.pdf> [1{/usr/share/texmf/fonts/map/pdftex/updmap/pdf
+tex.map}
+
+
+ <./figures/perf_per_watt.pdf>]) (./platform.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 29.
+
+Underfull \hbox (badness 1902) in paragraph at lines 62--72
+[]\OT1/ptm/m/n/10 The ex-per-i-men-tal work-load ex-e-cutes the Ro-dinia
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 75.
+) (./evaluation.tex
+<figures/madd-time-power.pdf, id=53, 746.79pt x 279.0425pt>
+File: figures/madd-time-power.pdf Graphic file (type pdf)
+
+<use figures/madd-time-power.pdf>
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 47.
+ (/usr/share/texmf/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [2 <./figures/madd-time-power.pdf>]
+<figures/rodinia-time.pdf, id=144, 566.115pt x 283.0575pt>
+File: figures/rodinia-time.pdf Graphic file (type pdf)
+
+<use figures/rodinia-time.pdf>
+<figures/rodinia-energy.pdf, id=145, 569.12625pt x 283.0575pt>
+File: figures/rodinia-energy.pdf Graphic file (type pdf)
+
+<use figures/rodinia-energy.pdf>
+<figures/idol.pdf, id=146, 497.86pt x 144.54pt>
+File: figures/idol.pdf Graphic file (type pdf)
+ <use figures/idol.pdf>
+<figures/madd-nvidia-time.pdf, id=147, 597.23125pt x 268.00125pt>
+File: figures/madd-nvidia-time.pdf Graphic file (type pdf)
+
+<use figures/madd-nvidia-time.pdf>
+<figures/mmul-nvidia-time.pdf, id=148, 597.23125pt x 272.01625pt>
+File: figures/mmul-nvidia-time.pdf Graphic file (type pdf)
+
+<use figures/mmul-nvidia-time.pdf>
+<figures/madd-nvidia-energy.pdf, id=149, 598.235pt x 270.00874pt>
+File: figures/madd-nvidia-energy.pdf Graphic file (type pdf)
+
+<use figures/madd-nvidia-energy.pdf>
+<figures/mmul-nvidia-energy.pdf, id=150, 597.23125pt x 272.01625pt>
+File: figures/mmul-nvidia-energy.pdf Graphic file (type pdf)
+
+<use figures/mmul-nvidia-energy.pdf>
+<figures/madd-gdev-nvidia-time.pdf, id=151, 597.23125pt x 270.00874pt>
+File: figures/madd-gdev-nvidia-time.pdf Graphic file (type pdf)
+
+<use figures/madd-gdev-nvidia-time.pdf>
+<figures/madd-gdev-nvidia-energy.pdf, id=152, 596.2275pt x 269.005pt>
+File: figures/madd-gdev-nvidia-energy.pdf Graphic file (type pdf)
+
+<use figures/madd-gdev-nvidia-energy.pdf>
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [3 <./figures/rodinia-time.pdf> <./figures/rodinia-energy.pdf> <./figures/idol
+.pdf> <./figures/madd-gdev-nvidia-time.pdf> <./figures/madd-gdev-nvidia-energy.
+pdf>])
+(./relatedwork.tex [4 <./figures/madd-nvidia-time.pdf> <./figures/mmul-nvidia-t
+ime.pdf> <./figures/madd-nvidia-energy.pdf> <./figures/mmul-nvidia-energy.pdf>]
+) (./conclusion.tex) (./main.bbl
+Underfull \hbox (badness 3746) in paragraph at lines 53--56
+[]\OT1/ptm/m/sc/7 NVIDIA\OT1/ptm/m/n/7 .  CUDA 4.0.  $\OT1/pcr/m/n/7 http : / /
+ developer . nvidia . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
+\OT1/pcr/m/n/7 object / linux-[]display-[]amd64-[]295 . 59-[]driver . html$\OT1
+/ptm/m/n/7 ,
+ []
+
+) [5] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 1026 strings out of 256216
+ 13555 string characters out of 1917072
+ 65264 words of memory out of 1500000
+ 4274 multiletter control sequences out of 10000+200000
+ 27293 words of font info for 55 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 32i,8n,21p,213b,276s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/t
+exmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm
+/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texm
+f/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf/fonts/type1/urw/times/ut
+mb8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 374278 bytes).
+PDF statistics:
+ 410 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

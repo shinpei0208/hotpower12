@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{Che2010}
+{\sc Che, S., Sheaffer, J.~W., Boyer, M., Szafaryn, L.~G., Wang, L., and
+  Skadron, K.}
+\newblock A characterization of the rodinia benchmark suite with comparison to
+  contemporary cmp workloads.
+\newblock In {\em Proc. of the IEEE international symposium on Workload
+  characterization\/} (2010), pp.~1--11.
+
+\bibitem{Hong2009}
+{\sc Hong, S., and Kim, H.}
+\newblock An analytical model for a gpu architecture with memory-level and
+  thread-level parallelism awareness.
+\newblock In {\em Proc. of the annual international symposium on Computer
+  architecture\/} (2009), pp.~152--163.
+
+\bibitem{Hong2010}
+{\sc Hong, S., and Kim, H.}
+\newblock An integrated gpu power and performance model.
+\newblock In {\em Proc. of the annual international symposium on Computer
+  architecture\/} (2010), pp.~280--289.
+
+\bibitem{Hsu2001}
+{\sc Hsu, C.-H., Kremer, U., and Hsiao, M.}
+\newblock Compiler-directed dynamic voltage/frequency scheduling for energy
+  reduction in microprocessors.
+\newblock In {\em Proc. of the international symposium on Low power electronics
+  and design\/} (2001), pp.~275--278.
+
+\bibitem{Jiao2010}
+{\sc Jiao, Y., Lin, H., Balaji, P., and Feng, W.}
+\newblock Power and performance characterization of computational kernels on
+  the gpu.
+\newblock In {\em Proc. of the IEEE/ACM international conference on Green
+  computing and communications \& international conference on Cyber, physical
+  and social computing\/} (2010), pp.~221 --228.
+
+\bibitem{Lee2011}
+{\sc Lee, J., Sathisha, V., Schulte, M., Compton, K., and Kim, N.~S.}
+\newblock Improving throughput of power-constrained gpus using dynamic
+  voltage/frequency and core scaling.
+\newblock In {\em Proc. of the international conference on Parallel
+  architectures and compilation techniques\/} (2011), pp.~111--120.
+
+\bibitem{Nagasaka2010}
+{\sc Nagasaka, H., Maruyama, N., Nukada, A., Endo, T., and Matsuoka, S.}
+\newblock Statistical power modeling of gpu kernels using performance counters.
+\newblock In {\em Proc. of the international conference on Green computing\/}
+  (2010), pp.~115--122.
+
+\bibitem{CUDA40}
+{\sc NVIDIA}.
+\newblock {CUDA 4.0}.
+\newblock \url{http://developer.nvidia.com/cuda-toolkit-40}, 2011.
+
+\bibitem{BLOB}
+{\sc NVIDIA}.
+\newblock {Linux~X64~Display Driver}.
+\newblock
+  \url{http://www.nvidia.com/object/linux-display-amd64-295.59-driver.html},
+  2012.
+
+\bibitem{Kato2012}
+{\sc Shinpei, K., Michael, M., Carlos, M., and Scott, B.}
+\newblock Gdev: First-class gpu resource management in the operating system.
+\newblock In {\em Proc. of the USENIX conference on USENIX annual technical
+  conference\/} (2012).
+
+\bibitem{ying2011}
+{\sc Zhang, Y., Hu, Y., Li, B., and Peng, L.}
+\newblock Performance and power analysis of ati gpu: A statistical approach.
+\newblock In {\em Proc. of the IEEE international conference on Networking,
+  architecture, and storage\/} (2011), pp.~149 --158.
+
+\end{thebibliography}

@@ -1,0 +1,79 @@
+\section{System Platform}
+\label{sec:platform}
+
+\begin{table}[!t]
+ \caption{Performance levels of GTX 480 (GPU).}
+ \vspace{-2.0mm}
+ \label{tab:GPU-frequency}
+ \footnotesize
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   Clock Domains &Min [MHz]&Low [MHz] & High [MHz]\\
+   \hline
+   \hline
+    Core & 50 & 405 & 700\\
+    \hline
+    Memory & 135 & 324 & 1848\\
+   \hline
+  \end{tabular}
+  \vspace{-5.0mm}
+ \end{center}
+\end{table}
+
+\begin{table}[!t]
+ \caption{Performance levels of Core i5 2400 (CPU).}
+ \small
+ \label{tab:CPU-frequency}
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   Platforms&Min [MHz]&Low [MHz]&High [MHz]\\
+   \hline
+   \hline
+   Core i5-2400 &1600& 2700 & 3300.1\\
+   \hline
+  \end{tabular}
+ \end{center}
+ \end{table}
+
+We use an NVIDIA GeForce GTX 480 graphics card and Intel Core i5 2400
+processor with the Linux kernel 3.3.0.
+Table~\ref{tab:GPU-frequency}~and~\ref{tab:CPU-frequency} present their
+available performance levels respectively.
+To perform the experiment, we use NVIDIA's proprietary
+software~\cite{BLOB} and Gdev~\cite{Kato2012} case by case.
+NVIDIA's proprietary software does not provide a system interface to
+scale the performance level of the GPU.
+We hence provide the modified BIOS files for the GPU that force the
+binary driver to configure the GPU with the specified performance level
+when loaded.
+This method enables us to choose any set of the GPU core and memory
+clocks, but requires the driver to reload, and the configuration is
+static while the driver is running.
+On the other hand, Gdev allows the system to change the performance
+level of the GPU dynamically at runtime through the Linux ``/proc'' file
+system interface.
+However, it is available only for the GPU core clock at the moment, and
+the GPU memory clock is fixed at 135MHz.
+This is limited due to an open-source implementation of Linux, but will
+be removed in the future release.
+
+The experimental workload executes the Rodinia benchmark suite
+2.0.1~\cite{Che2010} and our original microbenchmark programs of matrix
+computation.
+All input data for the Rodinia programs use the maximum feasible size,
+while the microbenchmark programs vary data size to conduct fine-grained
+measurements, all of which are written in CUDA.
+We use the NVIDIA CUDA Compiler (NVCC) 4.0~\cite{CUDA40} to compile the
+programs.
+Both NVIDIA's proprietary software and Gdev receive the same program
+binary.
+
+The power and energy consumption of the system is measured by the
+YOKOGAWA WT1600 digital power meter.
+This instrument obtains the voltage and electric current every $50ms$
+from the power plug of the machine.
+The power consumption is calculated by multiplying the voltage and
+current, while the energy consumption is derived by accumulation of
+power consumption.

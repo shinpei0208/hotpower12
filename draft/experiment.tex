@@ -1,0 +1,65 @@
+\section{Experimental Setup}
+
+本稿で使用するGPUの設定可能の動作周波数を表\ref{GPU-frequency}に示す．また，本
+稿で使用するCPUは，Intel社のCore i5 2400を使用し，選択可能な動作周波数を表
+\ref{CPU-frequency}に示す．主記憶メモリは，4GByteである．用いたベンチマークプロ
+グラムは，ヘテロジニアス環境向けのベンチマークセットである
+Rodinia2.0.1\cite{Che2010}と行列積と行列和を計算するプログラムである．入力サイ
+ズは，Rodiniaに関しては，動作する最大サイズ，行列積と行列和に関しては，動作する
+最大サイズを含む3種類ずつ用意した．
+
+次に，電力測定環境について述べる．電力測定装置には，横河電機社のWT1600を用い
+た．WT1600では，50[ms]ごとに消費電力の測定が可能である．測定する消費電力は，シス
+テム全体の消費電力を測定した．具体的には，電源プラグから電圧と電流を測定し，そ
+れらの積を計算することでシステム全体の消費電力を計測している．測定した消費電力
+の和を計算し消費エネルギーとする．
+
+GPUの電圧と動作周波数を変更する際，Nvidiaの公式ドライバでは，動作周波数をユーザ
+側で任意に変更するためには，ドライバをリロードする必要がある．そのため，ユーザ
+側で任意にプログラム実行中などに電圧と動作周波数の変更を行うことはできない．ま
+た，Nvisdiaのドライバでは，GPUが動作しない状況では最低の動作周波数において待機
+する．GPUが動作する際に，指定した動作周波数で実行が行われる．一方で，Gdevは動作
+周波数を変更する際に，ドライバのリロードを行う必要はないが，メモリの動作周波数
+を変更することができず，135[HMz]で固定された値を取る．Gdevにおいて動作周波数を
+変更する際には，linuxのインターフェイスを用いたCPUの動作周波数を変更するのと同
+様に，あるファイルの値を書き換えることで実現する．Gdevでは，アイドル状態でも動
+作周波数を高く維持することが可能である．本稿中では，Gdevを用いてGPUの動作周波数
+をプログラム実行中に変更する際には，プログラム中からsystem関数を呼び出し，動作
+周波数の変更を行う．
+
+
+\begin{table}[!t]
+ \caption{GTX480の選択可能動作周波数}
+ \vspace{-2.0mm}
+ \label{GPU-frequency}
+ \footnotesize
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   Clock Domains &Min [MHz]&Low [MHz] & High [MHz]\\
+   \hline\hline
+    Core & 50 & 405 & 700\\
+    \hline
+    Memory & 135 & 324 & 1848\\
+%   Core / Shader / Memory & 50 / 101 / 135 & 405 / 810 / 135 & 700 / 1401 / 135\\
+   \hline
+  \end{tabular}
+  \vspace{-5.0mm}
+ \end{center}
+\end{table}
+
+
+\begin{table}[!t]
+ \caption{CPUの選択可能動作周波数}
+ \small
+ \label{CPU-frequency}
+ \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+   \hline
+   Platforms&Min [MHz]&Low [MHz]&High [MHz]\\
+   \hline\hline
+   Core i5-2400 &1600& 2700 & 3300.1\\
+   \hline
+  \end{tabular}
+ \end{center}
+ \end{table}

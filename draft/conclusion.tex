@@ -1,0 +1,24 @@
+\section{Conclusion and Future Work}
+\label{sec:conclusion}
+
+We have presented a power and performance analysis of GPU-accelerated
+systems based on the NVIDIA Fermi architecture.
+Our findings include that the CPU is a weak factor for energy savings of
+GPU-accelerated systems unless power gating is suppoted by the GPU.
+In contrast, voltage and frequency scaling of the GPU is significant to
+reduce energy consumption.
+Our experimental results demonstrated that system energy could be reduced
+by about 28\% retaining a decrease in performance within 1\%, if the
+performance level of the GPU can be scaled effectively.
+
+In future work, we plan to develop DVFS algorithms for GPU-accelerated
+systems, using the characteristic identified in this paper.
+We basically consider such an approach that controls the GPU core clock
+for memory-intensive workload while controls the GPU memory clock for
+compute-intensive workload.
+To this end, we integrate PTX code analysis~\cite{Hong2009,Hong2010}
+into DVFS algorithms so that energy optimization can be provided at
+runtime.
+We also consider a further dynamic scheme that scales the performance
+level of the GPU during the execution of GPU code, whereas we restricted
+a scaling point at the boundary of GPU code in this paper.
